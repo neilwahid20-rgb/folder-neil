@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neil Wahid Al Ansory — Portofolio</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Link ke file CSS eksternal -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="wrap">
+      <a href="#top" class="logo">neil<span>.</span>dev</a>
+      <div class="navright">
+        <div class="navlinks" id="navLinks">
+          <a href="#tentang">Tentang</a>
+          <a href="#keahlian">Keahlian</a>
+          <a href="#proyek">Proyek</a>
+          <a href="#pendidikan">Pendidikan</a>
+          <a href="#kontak" class="cta">Hubungi Saya</a>
+        </div>
+        <div class="palette-picker" role="group" aria-label="Pilih warna tema">
+          <button class="swatch swatch-amber" data-palette="amber" aria-pressed="true" aria-label="Warna amber" type="button"></button>
+          <button class="swatch swatch-blue" data-palette="blue" aria-pressed="false" aria-label="Warna biru" type="button"></button>
+          <button class="swatch swatch-red" data-palette="red" aria-pressed="false" aria-label="Warna merah" type="button"></button>
+          <button class="swatch swatch-green" data-palette="green" aria-pressed="false" aria-label="Warna hijau" type="button"></button>
+          <button class="swatch swatch-purple" data-palette="purple" aria-pressed="false" aria-label="Warna ungu" type="button"></button>
+        </div>
+        <button class="theme-toggle" id="themeToggle" aria-label="Ganti tampilan terang/gelap" type="button">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8l1.8-1.8M18 6l1.8-1.8"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </button>
+        <button class="navtoggle" id="navToggle" aria-label="Buka menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero" id="top">
+    <div class="wrap">
+      <div>
+        <!-- GANTI URL DI BAWAH INI DENGAN FOTO PROFIL ASLI ANDA -->
+        <img src="neil.jpeg" alt="Foto Profil Neil Wahid Al Ansory" class="profile-pic">
+        
+        <p class="eyebrow mono"><span class="dot"></span>Tersedia untuk magang &amp; proyek</p>
+        <h1>Neil Wahid<br>Al Ansory</h1>
+        <p class="lede">Siswa jurusan Rekayasa Perangkat Lunak di SMK Poncol yang sedang membangun fondasi sebagai front-end developer — belajar merapikan antarmuka, menulis kode yang bisa dibaca orang lain, dan menyelesaikan proyek dari nol sampai jadi.</p>
+        <div class="actions">
+          <a href="#proyek" class="btn btn-primary">Lihat Proyek</a>
+          <a href="#kontak" class="btn btn-ghost">Hubungi Saya</a>
+        </div>
+      </div>
+      <div class="term">
+        <div class="term-bar"><i></i><i></i><i></i></div>
+        <div class="term-body">
+          <div><span class="c">$</span> whoami</div>
+          <div><span class="s">neil_wahid_al_ansory</span></div>
+          <div style="margin-top:10px"><span class="k">sekolah</span>: SMK Poncol</div>
+          <div><span class="k">jurusan</span>: Rekayasa Perangkat Lunak</div>
+          <div><span class="k">fokus</span>: HTML, CSS, JavaScript</div>
+          <div><span class="k">status</span>: <span class="s">sedang belajar & terbuka kolaborasi</span></div>
+          <div style="margin-top:10px"><span class="c">$</span> <span class="cursor"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tentang">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <div class="num mono">01</div>
+          <h2>Tentang Saya</h2>
+        </div>
+        <p>Sedikit cerita tentang latar belakang dan cara saya belajar membangun sesuatu di web.</p>
+      </div>
+      <div class="about-grid">
+        <div></div>
+        <div class="about-body">
+          <p>Saya Neil, siswa jurusan Rekayasa Perangkat Lunak (RPL) di SMK Poncol. Di sekolah, saya belajar dari dasar pemrograman, basis data, sampai membangun aplikasi web sederhana dari sisi tampilan hingga logikanya.</p>
+          <p>Saya tertarik pada sisi front-end — bagaimana sebuah halaman terasa rapi, mudah dipakai, dan enak dilihat. Selain tugas sekolah, saya senang mengulik proyek kecil sendiri untuk melatih kemampuan menulis kode dan mendesain tampilan.</p>
+          <ul class="facts">
+            <li><span class="flabel">LOKASI</span>Indonesia</li>
+            <li><span class="flabel">JENJANG</span>SMK — Kelas RPL</li>
+            <li><span class="flabel">MINAT</span>Front-end &amp; UI/UX</li>
+            <li><span class="flabel">BAHASA</span>Indonesia, Inggris (dasar)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="keahlian">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <div class="num mono">02</div>
+          <h2>Keahlian</h2>
+        </div>
+        <p>Kemampuan teknis yang saya pelajari di jurusan RPL dan latihan mandiri.</p>
+      </div>
+      <div class="skill-cols">
+        <div></div>
+        <div class="skill-groups">
+          <div class="skill-group">
+            <h3>Front-end</h3>
+            <div class="bar-row"><span class="name">HTML</span><span class="track"><i style="width:85%"></i></span><span class="pct">85%</span></div>
+            <div class="bar-row"><span class="name">CSS</span><span class="track"><i style="width:78%"></i></span><span class="pct">78%</span></div>
+            <div class="bar-row"><span class="name">JavaScript</span><span class="track"><i style="width:60%"></i></span><span class="pct">60%</span></div>
+          </div>
+          <div class="skill-group">
+            <h3>Back-end &amp; Tools</h3>
+            <div class="bar-row"><span class="name">PHP dasar</span><span class="track"><i style="width:55%"></i></span><span class="pct">55%</span></div>
+            <div class="bar-row"><span class="name">MySQL</span><span class="track"><i style="width:60%"></i></span><span class="pct">60%</span></div>
+            <div class="bar-row"><span class="name">Git &amp; GitHub</span><span class="track"><i style="width:50%"></i></span><span class="pct">50%</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="proyek">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <div class="num mono">03</div>
+          <h2>Proyek</h2>
+        </div>
+        <p>Beberapa proyek latihan. Ganti dengan proyekmu sendiri seiring waktu.</p>
+      </div>
+      <div class="proj-list">
+        <div class="proj">
+          <div class="proj-meta">2025 — Tugas Sekolah</div>
+          <div>
+            <h3>Website Profil Sekolah</h3>
+            <p>Landing page sederhana berisi profil, jurusan, dan galeri kegiatan sekolah, dibangun untuk melatih penataan layout dan responsivitas.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>Responsive</span></div>
+            <a href="#" class="proj-link">Lihat detail →</a>
+          </div>
+        </div>
+        <div class="proj">
+          <div class="proj-meta">2025 — Latihan Mandiri</div>
+          <div>
+            <h3>Aplikasi Pencatat Tugas</h3>
+            <p>Aplikasi to-do list ringan untuk mencatat tugas harian, lengkap dengan fitur tandai selesai dan hapus, dipakai untuk berlatih JavaScript.</p>
+            <div class="tags"><span>JavaScript</span><span>LocalStorage</span><span>UI/UX</span></div>
+            <a href="#" class="proj-link">Lihat detail →</a>
+          </div>
+        </div>
+        <div class="proj">
+          <div class="proj-meta">2024 — Proyek Kelas</div>
+          <div>
+            <h3>Sistem Input Data Siswa</h3>
+            <p>Form input dan tabel data siswa sederhana yang tersambung ke basis data, dibuat sebagai pengenalan alur CRUD di jurusan RPL.</p>
+            <div class="tags"><span>PHP</span><span>MySQL</span><span>CRUD</span></div>
+            <a href="#" class="proj-link">Lihat detail →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pendidikan">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <div class="num mono">04</div>
+          <h2>Pendidikan</h2>
+        </div>
+        <p>Latar belakang sekolah dan jurusan yang sedang ditempuh.</p>
+      </div>
+      <div class="edu-card">
+        <div></div>
+        <div class="edu-panel">
+          <div class="school">SMK Poncol</div>
+          <div class="major mono">Jurusan Rekayasa Perangkat Lunak (RPL)</div>
+          <p class="desc">Menempuh pendidikan di jurusan RPL dengan mata pelajaran yang mencakup pemrograman dasar, pemrograman web, basis data, dan pengembangan perangkat lunak berbasis proyek.</p>
+          <div class="edu-tags">
+            <span>Pemrograman Web</span>
+            <span>Basis Data</span>
+            <span>Pemrograman Berorientasi Objek</span>
+            <span>Praktik Kerja Lapangan</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="kontak">
+    <div class="wrap">
+      <div class="contact-grid">
+        <h2>Mari terhubung dan berkolaborasi.</h2>
+        <div class="contact-links">
+          <a href="mailto:neil.wahid20@email.com">
+            <span>Email<br><small>Balasan biasanya dalam 1–2 hari</small></span>
+            <span class="arrow mono">→</span>
+          </a>
+          <a href="https://github.com/neilwahid20-rgb/folder-neil" target="_blank" rel="noopener noreferrer">
+  <span>GitHub<br><small>Lihat kode proyek saya</small></span>
+  <span class="arrow mono">→</span>
+</a>
+          <a href="#">
+            <span>Instagram<br><small>Kegiatan sehari-hari</small></span>
+            <span class="arrow mono">→</span>
+          </a>
+          <a href="#">
+            <span>LinkedIn<br><small>Riwayat &amp; pengalaman</small></span>
+            <span class="arrow mono">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="wrap">
+    <span>© 2026 Neil Wahid Al Ansory</span>
+    <span class="mono">Dibangun dengan HTML &amp; CSS</span>
+  </footer>
+
+  <!-- Link ke file JavaScript eksternal -->
+  <script src="script.js"></script>
+</body>
+</html>
